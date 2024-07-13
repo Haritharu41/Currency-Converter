@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    height:80vh;
+    background-color:#f7ede2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color:#fff; 
+
+    padding:5rem;
+    border-radius: 5px;
+    min-height:45vh;
+    width:40vh ;
+   
+}
+
+
+ form{
+     margin-top: 2rem;
+ }
+
+ form input, button, select{
+    border: none;
+    border-radius:5px;
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+ }
+
+ form input{
+    border: 1px solid rgba(126, 108, 108, 0.93);
+    height: 2rem;
+ }
+ .dropDown{
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+
+ .dropDown svg {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+  }
+.selectContainer img{
+    width: 30px;
+}
+
+ .selectContainer{
+display:flex;
+justify-content: center;
+align-items: center;  
+border-radius:10px;
+border: 1px solid rgba(126, 108, 108, 0.93);
+width: 7rem;
+/* background-color: red; */
+ }
+
+
+ .msg{
+    margin: 2rem 0rem;
+ }
+
+ form button{
+    height: 3rem;
+    background-color:#001d3d;
+    color: white;
+    font-size: 1.14rem ;
+    cursor: pointer;
+ }
